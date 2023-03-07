@@ -11,7 +11,7 @@
   - use this command to make sure npm has been installed ## npm --version
 3. Angular CLI
   - use this command  ## npm install -g @angular/cli
-  - to check the version use this command ## ng v
+  - to check the version use this command ## ng v <Project Name>
 4. Once we installed all these three we are ready to create new project in Angular
 5. use this command to create a new angular app ## ng new <project name>
 6. This will ask few questions about do you need routing and which file extenstion you are going to use for CSS. Provide your choise and press enter.

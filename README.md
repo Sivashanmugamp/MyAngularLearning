@@ -41,3 +41,8 @@
 ### Guard
 Angular route guards are interfaces provided by Angular which, when implemented, allow us to control the accessibility of a route based on conditions provided in class implementation of that interface. Here are some types of Angular guards: CanActivate, CanActivateChild, CanLoad, CanDeactivate and Resolve.
 For example. If you want to restrict the module's access with roles and permission you can use Guard. When you are using AD Authentication Microsoft itself provides some built-in Guard libraries. if you are using different authentications you can write your customized guards. 
+
+### How to share the data between components
+1. Sharing data with Input
+2. Sharing data with event emitter or output
+3. Sharing data via service

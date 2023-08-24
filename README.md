@@ -28,9 +28,14 @@
 3. src - This is where we have our actual source codes. 
 	- Inside this folder, we have an "app" folder which has a set of files. every application needs at least one module and component
 	- assets - where we store static assets for our application like images, icons or text file
-	- environments - This is where we have configuration for each environment
+	- Environments - This is where we have configuration for each environment
 	## Files
 	1. Index.html - This is the file being used to render all our components. this will be updated during run time.
-	2. main.ts - This is starting point for our application
+	2. main.ts - This is the starting point for our application
 	3. style.css - This is where we will add global CSS tags
+### Interceptor
 
+1. The Angular Interceptor is a middleware or medium between the backend and frontend applications. Whenever we make the request the interceptor handles this. The common uses of 
+    interceptors are logging, auditing and profiling. For example.  if you want to inject a token for each request the right choice would be interceptor. Whenever we make any HttpClient 
+    call automatically interceptor will be called.
+2. 
